@@ -17,7 +17,7 @@ export default function Sidebar({ userRole, onLogout, onToggleChat }) {
             <div className="sidebar-header" style={{ padding: '1.5rem', borderBottom: '1px solid var(--neutral-700)' }}>
                 <h2 style={{ fontSize: '1.25rem', color: 'white', margin: 0, display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                     <div style={{ width: '8px', height: '8px', background: 'var(--primary-400)', borderRadius: '50%' }}></div>
-                    Smolify
+                    ResolveAI
                 </h2>
                 <div style={{ fontSize: '0.75rem', color: 'var(--neutral-400)', marginTop: '0.25rem' }}>Grievance Resolution</div>
             </div>
