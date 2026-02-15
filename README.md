@@ -1,66 +1,6 @@
-<!-- ResolveAI - Modern Animated README -->
-<style>
-  /* Modern animations and effects */
-  @keyframes glow {
-    0%, 100% { text-shadow: 0 0 10px rgba(59, 130, 246, 0.5); }
-    50% { text-shadow: 0 0 20px rgba(59, 130, 246, 0.8); }
-  }
-  
-  @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  
-  @keyframes slideInLeft {
-    from { opacity: 0; transform: translateX(-50px); }
-    to { opacity: 1; transform: translateX(0); }
-  }
-  
-  @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.7; }
-  }
-  
-  @keyframes neon-glow {
-    0%, 100% { box-shadow: 0 0 5px #3b82f6, 0 0 10px #3b82f6; }
-    50% { box-shadow: 0 0 15px #3b82f6, 0 0 30px #3b82f6; }
-  }
-  
-  @keyframes shimmer {
-    0% { background-position: -1000px 0; }
-    100% { background-position: 1000px 0; }
-  }
-  
-  .animated-title {
-    animation: glow 2s ease-in-out infinite;
-    font-size: 2.5em;
-    font-weight: 900;
-  }
-  
-  .fade-in {
-    animation: fadeInUp 0.6s ease-out;
-  }
-  
-  .slide-in {
-    animation: slideInLeft 0.6s ease-out;
-  }
-  
-  .pulse-effect {
-    animation: pulse 2s infinite;
-  }
-  
-  .neon-button {
-    animation: neon-glow 1.5s infinite;
-    border: 2px solid #3b82f6;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background: rgba(59, 130, 246, 0.1);
-  }
-</style>
-
 <div align="center">
 
-# <span class="animated-title">✨ ResolveAI ✨</span>
+# ResolveAI
 
 ### AI-Powered Grievance Redressal System
 
@@ -74,25 +14,26 @@
 
 ## Demo Video
 
-> **🎬 Watch ResolveAI in Action!** Auto-playing below
+> **Coming Soon!** Watch ResolveAI in action
 
-<iframe width="100%" height="420" src="https://www.youtube.com/embed/qqGPYvj9Dck?autoplay=1&mute=1&loop=1" title="ResolveAI Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 10px; box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);"></iframe>
+**[View Demo on YouTube](https://youtu.be/qqGPYvj9Dck?si=mI9eNUjfZ9X3opgR)**
 
-**[Full System Demonstration and Walkthrough](https://youtu.be/qqGPYvj9Dck?si=mI9eNUjfZ9X3opgR)**
+*Full system demonstration and walkthrough*
 
 ---
 
 ## Documentation
 
-📄 **[Download Complete Project Report](https://drive.google.com/file/d/12sMgsOqGXHHN5mhdgVVdwsH8wr0pjLnD/view?usp=sharing)**
+**[Download Complete Project Report](https://drive.google.com/file/d/12sMgsOqGXHHN5mhdgVVdwsH8wr0pjLnD/view?usp=sharing)**
 
 *Comprehensive technical documentation including mathematical proofs, system architecture, and feature explanations*
 
 ---
 
+
 ## Required Downloads
 
-🤖 **[Download AI Model Weights](https://drive.google.com/file/d/1otbd6p3k0UJJv8_dsyrDY7dapAp_-Hid/view?usp=sharing)** (Required for AI Service)
+**[Download AI Model Weights](https://drive.google.com/file/d/1otbd6p3k0UJJv8_dsyrDY7dapAp_-Hid/view?usp=sharing)** (Required for AI Service)
 
 > Place the downloaded model files in a folder named `local_model` in the root directory before starting the AI service.
 
@@ -100,10 +41,10 @@
 
 ## What is ResolveAI?
 
-ResolveAI is a **next-generation grievance redressal system** that combines artificial intelligence with human oversight to create a fair, transparent, and efficient complaint resolution process. Unlike traditional systems, ResolveAI learns from every interaction, adapts to institutional context, and keeps users informed at every step.
+ResolveAI is a **next-generation grievance redressal system** that combines artificial intelligence with human oversight to create a fair, transparent, and efficient complaint resolution process. Unlike traditional systems that rely on manual triage and static rules, ResolveAI brings intelligence to every step of the complaint lifecycle.
 
 <details>
-<summary><b>🎯 The Problem We Solve</b></summary>
+<summary><b>The Problem We Solve</b></summary>
 
 Traditional grievance systems suffer from:
 - **Slow Manual Triage**: Human reviewers create bottlenecks
@@ -118,10 +59,12 @@ Traditional grievance systems suffer from:
 
 ## Features
 
-### 🤖 Intelligent AI Classification
+### Intelligent AI Classification
 
 <details>
-<summary><b>🎲 Confidence-Aware Routing with Human-in-the-Loop</b></summary>
+<summary><b>Confidence-Aware Routing with Human-in-the-Loop</b></summary>
+
+
 
 - AI generates predictions **with confidence scores**
 - High confidence leads to automatic routing
@@ -138,7 +81,9 @@ Confidence < 50%   → Manual review queue
 </details>
 
 <details>
-<summary><b>📚 Feedback-Driven Continuous Learning</b></summary>
+<summary><b>Feedback-Driven Continuous Learning</b></summary>
+
+
 
 - Authorities can confirm or correct AI predictions
 - System learns from institutional expertise
@@ -156,10 +101,12 @@ Confidence < 50%   → Manual review queue
 
 ---
 
-### ⚡ Smart Prioritization
+### Smart Prioritization
 
 <details>
-<summary><b>📊 Dynamic SLA Estimation</b></summary>
+<summary><b>Dynamic SLA Estimation</b></summary>
+
+
 
 Calculates realistic resolution times based on:
 - Complaint severity
@@ -180,7 +127,9 @@ SLA_dynamic = (SLA_base / (1 + SeverityScore)) + (γ × N_queue)
 </details>
 
 <details>
-<summary><b>🌟 Community Signal-Driven Urgency</b></summary>
+<summary><b>Community Signal-Driven Urgency</b></summary>
+
+
 
 - Users can like and comment on public complaints
 - Rapid engagement auto-escalates severity
@@ -204,20 +153,22 @@ If E > threshold → Auto-escalate to Critical
 
 ---
 
-### 👥 Role-Based Portals
+### Role-Based Portals
 
 | Role | Features |
 |------|----------|
-| **📝 Complainants** | Submit complaints, track status, engage with community |
-| **👮 Authorities** | Review cases, provide feedback, manage assignments |
-| **⚙️ Admins** | AI-assisted insights, review queue, system oversight |
+| **Complainants** | Submit complaints, track status, engage with community |
+| **Authorities** | Review cases, provide feedback, manage assignments |
+| **Admins** | AI-assisted insights, review queue, system oversight |
 
 ---
 
-### 🧠 Administrative Intelligence
+### Administrative Intelligence
 
 <details>
-<summary><b>💬 AI-Assisted Admin Chat Interface</b></summary>
+<summary><b>AI-Assisted Admin Chat Interface</b></summary>
+
+
 
 Ask questions in plain language:
 - "Which department is currently overloaded?"
@@ -234,7 +185,9 @@ Ask questions in plain language:
 </details>
 
 <details>
-<summary><b>✅ Review Queue for Uncertain AI Decisions</b></summary>
+<summary><b>Review Queue for Uncertain AI Decisions</b></summary>
+
+
 
 All low-confidence predictions grouped for review:
 - Inspect original complaint text
@@ -253,7 +206,7 @@ All low-confidence predictions grouped for review:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -354,7 +307,7 @@ Application will be available at `http://localhost:5173`
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 ResolveAI/
@@ -362,6 +315,7 @@ ResolveAI/
 ├── api.py                        # Main AI API entry point (FastAPI)
 ├── local_model/                  # Fine-tuned classification model files
 ├── requirements.txt              # Python dependencies
+├── Project_Documentation.tex     # Complete Project Documentation (LaTeX)
 ├── README.md                     # Setup instructions
 │
 └── webapp/
@@ -387,14 +341,14 @@ ResolveAI/
 
 ---
 
-## 🧪 Development & Testing with Requestly
+## Development & Testing with Requestly
 
 ### API-First Development Approach
 
-ResolveAI was developed using **Requestly** as the primary API command center during development and testing. Instead of relying on the frontend UI for validation, all critical backend and AI workflow testing happened at the API level.
+ResolveAI was developed using **Requestly** as the primary API command center during development and testing. Instead of relying on the frontend UI for validation, all critical backend and AI workflows were designed, tested, and debugged directly using the Requestly API Client.
 
 <details>
-<summary><b>⚙️ Why Requestly Was Essential</b></summary>
+<summary><b>Why Requestly Was Essential</b></summary>
 
 ResolveAI consists of multiple interacting components:
 - A Node.js backend handling business logic
@@ -410,7 +364,7 @@ Testing such a system purely through the UI is slow and error-prone. Requestly a
 </details>
 
 <details>
-<summary><b>📋 API Collection Organization</b></summary>
+<summary><b>API Collection Organization</b></summary>
 
 Requestly collections were organized by responsibility:
 
@@ -433,7 +387,7 @@ Each request was saved with example payloads and expected responses, creating a 
 </details>
 
 <details>
-<summary><b>🔧 Complex Request Construction</b></summary>
+<summary><b>Complex Request Construction</b></summary>
 
 Requestly was used to construct non-trivial POST requests with structured JSON bodies.
 
@@ -464,7 +418,7 @@ This allowed us to validate:
 </details>
 
 <details>
-<summary><b>🔍 Endpoint Validation & Debugging</b></summary>
+<summary><b>Endpoint Validation & Debugging</b></summary>
 
 Requestly was heavily used to:
 - Verify response schemas matched the expected Pydantic models
@@ -480,7 +434,7 @@ When classification failed or returned unexpected output, Requestly made it easy
 </details>
 
 <details>
-<summary><b>🧠 Testing AI Logic Without UI Dependency</b></summary>
+<summary><b>Testing AI Logic Without UI Dependency</b></summary>
 
 Using Requestly, we validated:
 - Confidence-aware routing logic
@@ -493,7 +447,7 @@ This ensured the AI and backend logic were correct before being integrated into 
 </details>
 
 <details>
-<summary><b>⚡ Workflow Efficiency & Impact</b></summary>
+<summary><b>Workflow Efficiency & Impact</b></summary>
 
 Requestly improved development speed and reliability by:
 - Acting as a single source of truth for API behavior
@@ -507,17 +461,17 @@ For a system handling privacy-sensitive and high-impact complaints, this level o
 
 ### Summary
 
-Requestly was not used as a simple request sender, but as a **professional-grade API testing and validation platform**. It enabled faster debugging, cleaner architecture, and higher confidence in AI-driven decision making.
+Requestly was not used as a simple request sender, but as a **professional-grade API testing and validation platform**. It enabled faster debugging, cleaner architecture, and higher confidence in AI-driven decision-making—making it a critical part of the ResolveAI development workflow.
 
 ---
 
-## 🔄 How It Works
+## How It Works
 
 ### The Intelligence Pipeline
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    User Submits Complaint                       │
+│                    User Submits Complaint                        │
 └────────────────────────────┬────────────────────────────────────┘
                              │
                              ▼
@@ -566,10 +520,12 @@ Requestly was not used as a simple request sender, but as a **professional-grade
 
 ---
 
-## 📐 Mathematical Foundations
+## Mathematical Foundations
 
 <details>
-<summary><b>⏱️ Dynamic SLA Formula</b></summary>
+<summary><b>Dynamic SLA Formula</b></summary>
+
+
 
 ```
 SLA_dynamic = (SLA_base / (1 + SeverityScore)) + (γ × N_queue)
@@ -586,7 +542,9 @@ SLA_dynamic = (SLA_base / (1 + SeverityScore)) + (γ × N_queue)
 </details>
 
 <details>
-<summary><b>📈 Community Escalation Score</b></summary>
+<summary><b>Community Escalation Score</b></summary>
+
+
 
 ```
 E = (L / (T + 1)^α) × W_user
@@ -603,7 +561,9 @@ E = (L / (T + 1)^α) × W_user
 </details>
 
 <details>
-<summary><b>🎯 Confidence-Based Routing</b></summary>
+<summary><b>Confidence-Based Routing</b></summary>
+
+
 
 ```
 Route =
@@ -621,7 +581,7 @@ Route =
 
 ---
 
-## �� Key Innovations
+## Key Innovations
 
 | Feature | Traditional Systems | ResolveAI |
 |---------|-------------------|-----------|
@@ -634,19 +594,19 @@ Route =
 
 ---
 
-## 👥 Team
+## Team
 
 <div align="center">
 
 ### Team Kaju Katli
 
-**🎨 Nishant Kaushik** | **💻 Ayush Raj**
+**Nishant Kaushik** | **Ayush Raj**
 
 </div>
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Backend:**
 - Python 3.9+ with FastAPI
@@ -668,38 +628,38 @@ Route =
 
 ---
 
-## 💼 Use Cases
+## Use Cases
 
-### 🎓 Educational Institutions
+### Educational Institutions
 Student grievances, facility issues, academic concerns
 
-### 🏥 Healthcare
+### Healthcare
 Patient feedback, service complaints, facility management
 
-### 🏛️ Government
+### Government
 Citizen complaints, public services, infrastructure issues
 
-### 🏢 Corporate
+### Corporate
 Employee grievances, HR issues, workplace concerns
 
-### 🏙️ Municipal
+### Municipal
 Community issues, infrastructure problems, public services
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please feel free to submit a Pull Request.
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## 💬 Support
+## Support
 
 Having issues? Check out our [documentation](https://drive.google.com/file/d/12sMgsOqGXHHN5mhdgVVdwsH8wr0pjLnD/view?usp=sharing) or open an issue on GitHub.
 
@@ -707,8 +667,8 @@ Having issues? Check out our [documentation](https://drive.google.com/file/d/12s
 
 <div align="center">
 
-### 💖 Made with care by Team Kaju Katli
+**Made with care by Team Kaju Katli**
 
-*If you find ResolveAI helpful, please consider giving it a star ⭐*
+*If you find ResolveAI helpful, please consider giving it a star*
 
 </div>
