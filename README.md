@@ -350,6 +350,22 @@ npm run dev
 
 Application will be available at `http://localhost:5173`
 
+---
+
+### 🔑 Default Login Credentials
+
+Use the following pre-configured accounts to explore the system right away:
+
+| Role | Email | Password |
+|------|-------|----------|
+| **Admin** | admin@gmail.com | admin@123 |
+| **Authority** | authority@gmail.com | authority@123 |
+| **User / Complainant** | user@gmail.com | user@123 |
+
+> 💡 **Tip:** You can also create new users manually or change the roles of existing users through the **Admin Dashboard**. Simply log in as Admin, navigate to the user management section, and assign or update roles as needed.
+
+---
+
 </details>
 
 <div align="center">
