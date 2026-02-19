@@ -16,11 +16,22 @@
 
 <br/>
 
-<!-- Animated Stats -->
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=1e90ff&icon_color=1e90ff" alt="GitHub Stats" />
-&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&background=0d1117&ring=1e90ff&fire=1e90ff&currStreakLabel=1e90ff" alt="GitHub Streak" />
+<!-- Repo-Specific Stats -->
+<div align="center">
 
+<!-- Repo Stats Card -->
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=Nishant-coder-cpu&repo=Grievance-Redressal-System-using-SLM&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=1e90ff&icon_color=1e90ff" alt="Repo Stats" />
+<br/><br/>
+
+<br/>
+
+<!-- Repo Metrics Badges -->
+![Stars](https://img.shields.io/github/stars/Nishant-coder-cpu/Grievance-Redressal-System-using-SLM?style=for-the-badge&color=1e90ff&labelColor=0d1117)
+![Forks](https://img.shields.io/github/forks/Nishant-coder-cpu/Grievance-Redressal-System-using-SLM?style=for-the-badge&color=1e90ff&labelColor=0d1117)
+![Issues](https://img.shields.io/github/issues/Nishant-coder-cpu/Grievance-Redressal-System-using-SLM?style=for-the-badge&color=1e90ff&labelColor=0d1117)
+![Last Commit](https://img.shields.io/github/last-commit/Nishant-coder-cpu/Grievance-Redressal-System-using-SLM?style=for-the-badge&color=1e90ff&labelColor=0d1117)
+
+</div>
 <br/><br/>
 
 <h3>🛠️ Tech Stack</h3>
@@ -54,7 +65,6 @@
 
 ## Demo Video
 
-> **Coming Soon!** Watch ResolveAI in action
 
 **[View Demo on YouTube](https://youtu.be/qqGPYvj9Dck?si=mI9eNUjfZ9X3opgR)**
 
@@ -748,7 +758,7 @@ Having issues? Check out our [documentation](https://drive.google.com/file/d/12s
 **Made with care by Team Kaju Katli** ❤️
 
 <!-- Animated Profile Views Counter -->
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=1e90ff&style=for-the-badge&label=README+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=Nishant-coder-cpu&color=1e90ff&style=for-the-badge&label=README+VIEWS)
 
 *If you find ResolveAI helpful, please consider giving it a star* ⭐
 
