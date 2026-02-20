@@ -3,6 +3,22 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FiX, FiSearch, FiEdit2, FiSave, FiXCircle, FiUser, FiPlus } from 'react-icons/fi';
 import api from '../../lib/api';
 
+const DEPARTMENTS = [
+    "Infrastructure",
+    "Student Affairs",
+    "IT Support",
+    "Security",
+    "Transport",
+    "Internal Complaints Committee",
+    "Vigilance / Ethics Office",
+    "Diversity & Inclusion Office",
+    "Health & Safety Department",
+    "Employee Wellness / HR",
+    "Academic Affairs / Disciplinary Committee",
+    "Operations / Facilities Management",
+    "Human Resources"
+];
+
 export default function UserManagementModal({ isOpen, onClose }) {
     const [users, setUsers] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -201,11 +217,9 @@ export default function UserManagementModal({ isOpen, onClose }) {
                                             style={{ width: '100%', padding: '0.75rem', background: 'rgba(0,0,0,0.3)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 'var(--radius-md)', color: 'white', opacity: newUserForm.role !== 'authority' ? 0.5 : 1 }}
                                         >
                                             <option value="">Select Department</option>
-                                            <option value="Infrastructure">Infrastructure</option>
-                                            <option value="Student Affairs">Student Affairs</option>
-                                            <option value="IT Support">IT Support</option>
-                                            <option value="Security">Security</option>
-                                            <option value="Transport">Transport</option>
+                                            {DEPARTMENTS.map(dept => (
+                                                <option key={dept} value={dept}>{dept}</option>
+                                            ))}
                                         </select>
                                     </div>
                                 </div>
@@ -293,11 +307,9 @@ export default function UserManagementModal({ isOpen, onClose }) {
                                                                 }}
                                                             >
                                                                 <option value="">Select Department</option>
-                                                                <option value="Infrastructure">Infrastructure</option>
-                                                                <option value="Student Affairs">Student Affairs</option>
-                                                                <option value="IT Support">IT Support</option>
-                                                                <option value="Security">Security</option>
-                                                                <option value="Transport">Transport</option>
+                                                                {DEPARTMENTS.map(dept => (
+                                                                    <option key={dept} value={dept}>{dept}</option>
+                                                                ))}
                                                             </select>
                                                         </div>
                                                     </div>
