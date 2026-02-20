@@ -3,6 +3,22 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FiX, FiSearch, FiFilter, FiDownload, FiCalendar } from 'react-icons/fi';
 import api from '../../lib/api';
 
+const DEPARTMENTS = [
+    "Infrastructure",
+    "Student Affairs",
+    "IT Support",
+    "Security",
+    "Transport",
+    "Internal Complaints Committee",
+    "Vigilance / Ethics Office",
+    "Diversity & Inclusion Office",
+    "Health & Safety Department",
+    "Employee Wellness / HR",
+    "Academic Affairs / Disciplinary Committee",
+    "Operations / Facilities Management",
+    "Human Resources"
+];
+
 export default function ArchiveModal({ isOpen, onClose }) {
     const [complaints, setComplaints] = useState([]);
     const [loading, setLoading] = useState(false);
@@ -134,11 +150,9 @@ export default function ArchiveModal({ isOpen, onClose }) {
                                 }}
                             >
                                 <option value="" style={{ color: 'black' }}>All Departments</option>
-                                <option value="Infrastructure" style={{ color: 'black' }}>Infrastructure</option>
-                                <option value="Student Affairs" style={{ color: 'black' }}>Student Affairs</option>
-                                <option value="IT Support" style={{ color: 'black' }}>IT Support</option>
-                                <option value="Security" style={{ color: 'black' }}>Security</option>
-                                <option value="Transport" style={{ color: 'black' }}>Transport</option>
+                                {DEPARTMENTS.map(dept => (
+                                    <option key={dept} value={dept} style={{ color: 'black' }}>{dept}</option>
+                                ))}
                             </select>
                             <button className="btn btn-primary" onClick={handleExport}>
                                 <FiDownload style={{ marginRight: '0.5rem' }} /> Export CSV
